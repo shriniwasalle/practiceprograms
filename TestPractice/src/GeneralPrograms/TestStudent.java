@@ -14,7 +14,7 @@ class Student {
 	}
 
 	public static void test1() {
-
+		
 	}
 }
 

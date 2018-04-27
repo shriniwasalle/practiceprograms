@@ -1,10 +1,13 @@
 package CollectionsPrograms;
+
 import java.util.ArrayList;
 import java.util.Iterator;
+
 class Student {
 	int age;
 	String name;
 	int rollNo;
+
 	public Student(int age, String name, int rollNo) {
 		this.age = age;
 		this.name = name;
@@ -22,17 +25,17 @@ public class TestArrayList3 {
 		list.add(s1);
 		list.add(s2);
 		list.add(s3);
-		
+
 		Iterator<Student> str = list.iterator();
 		System.out.println(" -- Using while loop -- ");
 		while (str.hasNext()) {
 			Student st = str.next();
-			System.out.println(" Age: "+st.age+" Name: "+st.name+" Roll No: "+st.rollNo);
+			System.out.println(" Age: " + st.age + " Name: " + st.name + " Roll No: " + st.rollNo);
 		}
-		
+
 		System.out.println(" -- Using for loop -- ");
-		for(Student st : list) {
-			System.out.println(" Age: "+st.age+" Name: "+st.name+" Roll No: "+st.rollNo);
+		for (Student st : list) {
+			System.out.println(" Age: " + st.age + " Name: " + st.name + " Roll No: " + st.rollNo);
 		}
 	}
 }

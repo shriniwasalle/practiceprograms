@@ -17,6 +17,5 @@ public class TestCollections {
 		System.out.println("Minimum value:"+min);
 		int max = Collections.max(list);
 		System.out.println("Maximum value:"+max);
-		
 	}
 }

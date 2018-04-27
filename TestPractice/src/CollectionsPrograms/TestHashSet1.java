@@ -13,9 +13,9 @@ public class TestHashSet1 {
 		h1.add("C");
 		System.out.println(h1);
 
-		h2.add(100);
-		h2.add(86);
-		h2.add(88);
+		h2.add(111);
+		h2.add(530);
+		h2.add(8843);
 
 		System.out.println(h2);
 

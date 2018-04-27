@@ -9,7 +9,7 @@ public class TestStatic {
 	}
 	public static void main(String[] args) {
 		TestStatic st = new TestStatic();
-		st.sample();
+		TestStatic.sample();
 		TestStatic.sample();
 		System.out.println(TestStatic.i);
 	}
