@@ -14,5 +14,4 @@ public class WordsCount {
 		}
 		System.out.println("No of words in a String: " + count);
 	}
-
 }

@@ -2,8 +2,9 @@ package Citius;
 
 public class ArmstrongNumber {
 
+	// Armstrong number : 153 = (1*1*1)+(5*5*5)+(3*3*3)
 	public static void main(String[] args) {
-
+		
 		int sum = 0;
 		int a, temp;
 		int num = 153;

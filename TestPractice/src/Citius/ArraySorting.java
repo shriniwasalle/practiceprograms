@@ -11,11 +11,8 @@ public class ArraySorting {
 
 	}
 
-	/**
-	 * @param arr
-	 */
 	private static void usingForLoops(int[] arr) {
-		System.out.println("Array Length = "+arr.length);
+		System.out.println("Array Length = " + arr.length);
 		System.out.println("Before Sorting:");
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i]);
@@ -25,24 +22,21 @@ public class ArraySorting {
 		for (int i = 0; i < n - 1; i++) {
 			for (int j = 0; j < n - i - 1; j++) {
 				if (arr[j] > arr[j + 1]) {
-					
+
 					int temp = arr[j];
 					arr[j] = arr[j + 1];
 					arr[j + 1] = temp;
-					
+
 				}
 			}
 		}
-		
+
 		System.out.println("After Sort");
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i]);
 		}
 	}
-
-	/**
-	 * @param arr
-	 */
+	// Using Arrays class
 	private static void usingArrays(int[] arr) {
 		Arrays.sort(arr);
 		for (int i = 0; i < arr.length; i++) {

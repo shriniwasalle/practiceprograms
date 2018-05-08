@@ -22,7 +22,7 @@ public class DropdownTest {
 		Select dSelect = new Select(month);
 		dSelect.selectByIndex(1);
 		dSelect.selectByValue("3");
-		dSelect.selectByVisibleText("Apr");
+		dSelect.selectByVisibleText("Jan");
 		
 		List<WebElement> months = dSelect.getOptions();
 

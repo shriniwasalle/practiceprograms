@@ -35,6 +35,7 @@ public class TestComparable1 {
 		all.add(new Student2(15, "Shri3"));
 		
 		Collections.sort(all);
+		
 		for(Student2 st : all) {
 			System.out.println(st.roll + "---" +st.name );
 		}

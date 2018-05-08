@@ -70,5 +70,7 @@
 	<classpathentry kind="lib" path="D:/BUSINESS DATA/Softwares/Automation Jars/ReportNG/guice-3.0.jar/guice-3.0.jar"/>
 	<classpathentry kind="lib" path="D:/BUSINESS DATA/Softwares/Automation Jars/ReportNG/velocity-1.5-sources.jar/velocity-1.5-sources.jar"/>
 	<classpathentry kind="lib" path="D:/BUSINESS DATA/Softwares/ReportNG/ReportNG/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="D:/BUSINESS DATA/Softwares/Apache FontBox PDFBox/fontbox-1.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/BUSINESS DATA/Softwares/Apache FontBox PDFBox/pdfbox-1.8.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

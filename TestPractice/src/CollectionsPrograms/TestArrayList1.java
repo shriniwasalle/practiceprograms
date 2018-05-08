@@ -8,8 +8,7 @@ public class TestArrayList1 {
 		System.out.println("Integer Array:");
 		printArray(intArray);
 		System.out.println("Character Array:");
-		printArray(charArray);
-		
+		printArray(charArray);	
 	}
 	
 	private static <E> void printArray(E[] elements) {

@@ -1,7 +1,7 @@
 package Citius;
 
 public class PalindromeNumber {
-	
+	// Palindrome Number: 121 -> Reverse number should be same 
 	public static void main(String[] args) {
 		int num = 121;
 		int r; 
