@@ -21,6 +21,7 @@ public class TestArrayList3 {
 		Student s1 = new Student(21, "Shriniwas1", 10);
 		Student s2 = new Student(22, "Shriniwas2", 20);
 		Student s3 = new Student(23, "Shriniwas3", 30);
+		
 		ArrayList<Student> list = new ArrayList<Student>();
 		list.add(s1);
 		list.add(s2);
@@ -28,6 +29,7 @@ public class TestArrayList3 {
 
 		Iterator<Student> str = list.iterator();
 		System.out.println(" -- Using while loop -- ");
+
 		while (str.hasNext()) {
 			Student st = str.next();
 			System.out.println(" Age: " + st.age + " Name: " + st.name + " Roll No: " + st.rollNo);
