@@ -3,7 +3,7 @@ package GeneralPrograms;
 public class TestReverseNumber {
 
 	public static void main(String[] args) {
-		int number = 1006;
+		int number = 12345;
 		int rev = 0;
 		int temp = number;
 		while (number > 0) {
