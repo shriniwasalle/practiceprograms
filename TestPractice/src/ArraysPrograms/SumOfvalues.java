@@ -1,6 +1,6 @@
 package ArraysPrograms;
 
-public class ArraySumOfvalues {
+public class SumOfvalues {
 
 	public static void main(String[] args) {
 		int arr[] = { 10, 20, 30 };
