@@ -1,4 +1,4 @@
-package Citius;
+package StringPrograms;
 
 public class ReplaceCharacterFromString {
 	public static void main(String[] args) {

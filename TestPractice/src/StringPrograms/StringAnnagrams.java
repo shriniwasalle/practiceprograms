@@ -1,4 +1,4 @@
-package Citius;
+package StringPrograms;
 
 import java.util.Arrays;
 

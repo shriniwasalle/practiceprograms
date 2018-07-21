@@ -1,4 +1,4 @@
-package Citius;
+package GeneralPrograms;
 
 import java.util.HashMap;
 
