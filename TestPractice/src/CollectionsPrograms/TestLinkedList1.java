@@ -11,6 +11,7 @@ public class TestLinkedList1 {
 		list.add(2,"Shri2");
 		list.addFirst("ShriFirst");
 		list.addLast("ShriLast");
+		
 		System.out.println(list);
 		
 	}

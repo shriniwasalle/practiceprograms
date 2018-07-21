@@ -23,5 +23,10 @@ public class TestArrayList2 {
 		for(String str : list) {
 			System.out.println(str);
 		}
+		
+		System.out.println("-- Iterate using for loop -- ");
+		for(int i=0; i<list.size();i++) {
+			System.out.println(list.get(i));
+		}
 	}
 }

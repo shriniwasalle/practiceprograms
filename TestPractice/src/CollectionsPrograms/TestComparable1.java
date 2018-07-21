@@ -12,6 +12,10 @@ class Student2 implements Comparable<Student2>{
 		this.name = name;
 	}
 
+	public int compareTo(Student2 st) {
+		return this.name.compareTo(st.name);
+	}
+
 	/*public int compareTo(Student2 st) {
 		if (this.roll == st.roll)
 			return 0;
@@ -21,9 +25,7 @@ class Student2 implements Comparable<Student2>{
 			return -1;
 	}*/
 	
-	public int compareTo(Student2 st) {
-		return this.name.compareTo(st.name);
-	}
+	
 }
 
 public class TestComparable1 {

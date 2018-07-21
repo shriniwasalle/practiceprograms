@@ -1,6 +1,5 @@
 package OOPSPrograms;
 import java.io.IOException;
-import java.util.ArrayList;
 
 class Parent {
 	public void test() throws IOException {

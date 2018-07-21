@@ -3,11 +3,12 @@ package CollectionsPrograms;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
-public class TestHashSet1 {
+public class DiffBetweenHashSetAndLinkedHashSet {
 
 	public static void main(String[] args) {
 		LinkedHashSet<String> h1 = new LinkedHashSet<String>();
 		HashSet<Integer> h2 = new HashSet<Integer>();
+		
 		h1.add("B");
 		h1.add("A");
 		h1.add("C");

@@ -16,6 +16,7 @@ public class ListAndSetDifference {
 		HashSet<Integer> set = new HashSet<Integer>();
 		set.add(50);
 		set.add(10);
+		set.add(10);
 		set.add(30);
 		set.add(60);
 		set.add(55);
