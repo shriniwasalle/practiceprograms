@@ -1,23 +1,26 @@
 package GeneralPrograms;
-interface Demo
-{
+
+interface Demo {
 	public void get();
 }
-abstract class test 
-{
+
+abstract class test {
 	public abstract void get();
 }
-public class TestException extends test implements Demo{
-	
+
+public class TestException extends test implements Demo {
+
 	@Override
 	public void get() {
 		// TODO Auto-generated method stub
-		
-	}
-	
-	public static void main(String[] args) {
-		 
+
 	}
 
-	
+	public static void main(String[] args) {
+		try {
+			
+		} catch (ArithmeticException | ArrayIndexOutOfBoundsException ex) {
+		}
+	}
+
 }

@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class CustomeArrayList {
 
 	private Object[] dataStore;
-	private int size;
+	private int size = 0;
 
 	public CustomeArrayList() {
 		dataStore = new Object[10];
@@ -16,7 +16,6 @@ public class CustomeArrayList {
 		if ((dataStore.length - size) <= 0) {
 			increaseCapacity();
 		}
-
 		dataStore[size] = o;
 		size++;
 		return true;
@@ -26,16 +25,23 @@ public class CustomeArrayList {
 		dataStore = Arrays.copyOf(dataStore, dataStore.length + 10);
 	}
 
-	@Override
-	public String toString() {
-		return dataStore[0].toString();
+	public Object get(int index) {
+
+		if (index > size) {
+			throw new IndexOutOfBoundsException();
+		}
+		return dataStore[index];
 	}
-	
+
+	public int size() {
+		return size;
+	}
+
 	public static void main(String[] args) {
 		CustomeArrayList list = new CustomeArrayList();
 		list.add(10);
-		
-		
-		System.out.println(list);
+		list.add(20);
+		System.out.println("Element: " + list.get(0));
+		System.out.println("Size of list: " + list.size());
 	}
 }
