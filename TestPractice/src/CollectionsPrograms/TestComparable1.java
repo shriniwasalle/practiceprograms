@@ -33,8 +33,8 @@ public class TestComparable1 {
 	public static void main(String[] args) {
 		ArrayList<Student2> all = new ArrayList<Student2>();
 		all.add(new Student2(10, "Shri1"));
-		all.add(new Student2(5, "Shri2"));
-		all.add(new Student2(15, "Shri3"));
+		all.add(new Student2(5, "Shri3"));
+		all.add(new Student2(15, "Shri2"));
 		
 		Collections.sort(all);
 		

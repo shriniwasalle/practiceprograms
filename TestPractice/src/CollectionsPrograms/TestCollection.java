@@ -45,7 +45,7 @@ public class TestCollection {
 		alist.add(i);
 		alist.add(new String("Alle"));
 
-		Iterator itr = alist.iterator();
+		Iterator<Object> itr = alist.iterator();
 
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
