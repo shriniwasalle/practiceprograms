@@ -3,7 +3,7 @@ package StringPrograms;
 public class ReverseStringUsingIterative {
 
 	public static void main(String[] args) {
-		String str = "Yogesh";
+		String str = "shriniwas";
 		String strOutput = usingIterative(str);
 		System.out.println(strOutput);
 	}
@@ -15,6 +15,7 @@ public class ReverseStringUsingIterative {
 		}
 
 		int length = str.length();
+		//System.out.println(length);
 		char[] ch = str.toCharArray();
 
 		for (int i = 0; i < length / 2; i++) {

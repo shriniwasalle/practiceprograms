@@ -1,25 +1,24 @@
 package StringPrograms;
 
 public class RemoveWhiteSpaces {
-	
-	
+
 	public static void main(String[] args) {
-		// Using replaceAll method 
+		// Using replaceAll method
 		String str = "My name is Shriniwas Alle";
 		String strWithoutSpace = str.replaceAll("\\s", "");
-		System.out.println("Using replaceAll method : "+strWithoutSpace);
+		System.out.println("Using replaceAll method : " + strWithoutSpace);
 
 		// Without using replaceAll method
 		String str2 = "My name is Shriniwas Alle";
 		char ch[] = str2.toCharArray();
-		StringBuffer sB = new StringBuffer();
+		StringBuffer sb = new StringBuffer();
 		for (int i = 0; i < ch.length; i++) {
-			if(ch[i] != ' ' && ch[i] != '\t') {
-				sB.append(ch[i]);
+			if (ch[i] != ' ' && ch[i] != '\t') {
+				sb.append(ch[i]);
 			}
 		}
-		System.out.println("Without using replaceAll method : "+sB);
-		
+		System.out.println("Without using replaceAll method : " + sb);
+
 	}
-	
+
 }

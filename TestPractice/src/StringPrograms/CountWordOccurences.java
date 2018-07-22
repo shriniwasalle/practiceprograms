@@ -4,7 +4,7 @@ public class CountWordOccurences {
 
 	public static void main(String[] args) {
 		String str = "xy cbz xyz abc";
-		String word = "xyz";
+		String word = "xy";
 
 		String[] splitStr = str.split(" ");
 		int count = 0;
@@ -16,5 +16,4 @@ public class CountWordOccurences {
 		}
 		System.out.println("The word " + word + " found " + count + " times");
 	}
-
 }
