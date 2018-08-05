@@ -30,6 +30,8 @@ public class ChromeOptions1 {
 		System.out.println(links.size());
 		for (int i = 0; i < links.size(); i++) {
 			System.out.println(links.get(i).getAttribute("href"));
+			
+		
 		}
 	}
 }

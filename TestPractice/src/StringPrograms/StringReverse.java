@@ -8,22 +8,23 @@ import java.util.ListIterator;
 public class StringReverse {
 
 	public static void main(String[] args) {
-		String str = "Shriniwas";
+		String str = "Shriniwas".trim();
 
 		// Using StringBulider
 		StringBuilder str1 = new StringBuilder(str);
-		System.out.println(str1.reverse());
+		System.out.println("Using StringBulider: "+str1.reverse());
 
 		// Using StringBuffer
 		StringBuffer str2 = new StringBuffer(str);
-		System.out.println(str2.reverse());
+		System.out.println("Using StringBuffer: "+str2.reverse());
 
 		// Using toCharArray method
 		char[] strChar = str.toCharArray();
 		for (int i = (str.length() - 1); i >= 0; i--) {
 			System.out.print(strChar[i]);
 		}
-
+		
+		System.out.println();
 		// Using charAt() function
 		for (int i = (str.length() - 1); i >= 0; i--) {
 			System.out.print(str.charAt(i));
@@ -36,7 +37,7 @@ public class StringReverse {
 		for (char ch : ch1) {
 			list.add(ch);
 		}
-
+		System.out.println();
 		Collections.reverse(list);
 		ListIterator<Character> listIt = list.listIterator();
 		System.out.println("-- Using ListIterator --");

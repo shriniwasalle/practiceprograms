@@ -43,5 +43,7 @@ public class TestAssertion {
 		// This statement will capture all the failed asserts and give AssertionError, and report test case failed
 		softAssert.assertAll();
 		
+		
+		
 	}
 }

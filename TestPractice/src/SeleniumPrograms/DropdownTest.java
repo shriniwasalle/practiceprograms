@@ -20,10 +20,11 @@ public class DropdownTest {
 
 		WebElement month = driver.findElement(By.id("month"));
 		Select dSelect = new Select(month);
+
 		dSelect.selectByIndex(1);
 		dSelect.selectByValue("3");
 		dSelect.selectByVisibleText("Jan");
-		
+
 		List<WebElement> months = dSelect.getOptions();
 
 		for (WebElement dMonth : months) {
