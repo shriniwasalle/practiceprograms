@@ -23,7 +23,7 @@ public class ArrayListSorting {
 				if (a.get(j) > a.get(j + 1)) {
 					temp = a.get(j);
 					a.set(j, a.get(j + 1));
-					a.set(j, temp);
+					a.set(j + 1, temp);
 				}
 			}
 		}

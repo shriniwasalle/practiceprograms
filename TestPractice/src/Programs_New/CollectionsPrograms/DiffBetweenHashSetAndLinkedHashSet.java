@@ -19,6 +19,6 @@ public class DiffBetweenHashSetAndLinkedHashSet {
 		h2.add(8843);
 
 		System.out.println(h2);
-		
+
 	}
 }

@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 class Bike {
-
+	
 	String bikeName = "Yamaha FZ-S";
 
 	public String toString() {
 		return this.bikeName;
 	}
-
+	
 }
 
 class Factory {
@@ -27,6 +27,7 @@ class Factory {
 
 public class CollectionRealTimeExample {
 
+	
 	public static void main(String[] args) {
 		Factory f = new Factory();
 		ArrayList<Bike> list1 = f.order(5);

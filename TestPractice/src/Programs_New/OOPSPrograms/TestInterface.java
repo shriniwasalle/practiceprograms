@@ -1,12 +1,5 @@
 package OOPSPrograms;
 
-interface ITR {
-	
-	default void test() {
-		 System.out.println("Hello, this is default method");  
-	}
-}
-
 public class TestInterface implements Cloneable {
 	int rollNo;
 	String name;

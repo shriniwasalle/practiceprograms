@@ -42,7 +42,6 @@ public class TestHashSet2 {
 		Student3 s2 = new Student3("Alle2");
 
 		HashSet<Student3> h = new HashSet<Student3>();
-		
 		h.add(s1);
 		h.add(s2);
 
