@@ -15,9 +15,7 @@ public class TestStatic {
 	public static void main(String[] args) {
 		TestStatic st = new TestStatic();
 		TestStatic.sample();
-		TestStatic.sample();
 		System.out.println(TestStatic.i);
 		//System.out.println(sample1());
 	}
-
 }

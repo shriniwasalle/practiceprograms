@@ -22,7 +22,8 @@ public class CaptureScreenShot {
 		 * String dest =
 		 * System.getProperty("user.dir")+"//Test-ScreenShots//"+screenName+".png";
 		 * 
-		 * File target = new File(dest); FileUtils.copyFile(src, target);
+		 * File target = new File(dest); 
+		 * FileUtils.copyFile(src, target);
 		 */
 		String dest = "data:image/jpg;base64, " + src;
 

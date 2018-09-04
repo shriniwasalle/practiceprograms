@@ -15,7 +15,7 @@ public class ReverseStringUsingIterative {
 		}
 
 		int length = str.length();
-		//System.out.println(length);
+		System.out.println(length);
 		char[] ch = str.toCharArray();
 
 		for (int i = 0; i < length / 2; i++) {

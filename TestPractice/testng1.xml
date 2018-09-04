@@ -4,16 +4,27 @@
 	<test name="ClassTest1">
 		<groups>
 			<run>
-				<include name="smoke"/>
-				<include name="sanity"/>
-				
-				
+				<include name="smoke" />
+				<include name="sanity" />
 			</run>
 		</groups>
-
 		<classes>
-			<class name="TestNGPrograms.TestGrouping1" />
-			<class name="TestNGPrograms.TestGrouping2" />
+			<class name="TestNGPrograms.TestGrouping1">
+				<!-- This is just for demo of how to include and exclude perticular methods -->
+				<methods>
+					<include name="method1"></include>
+					<include name="method1"></include>
+					<exclude name="method1"></exclude>
+				</methods>
+			</class>
+			<class name="TestNGPrograms.TestGrouping2">
+				<!-- This is just for demo of how to include and exclude perticular methods -->
+				<methods>
+					<include name="method3"></include>
+					<include name="method4"></include>
+					<exclude name="method5"></exclude>
+				</methods>
+			</class>
 		</classes>
 	</test>
 </suite>

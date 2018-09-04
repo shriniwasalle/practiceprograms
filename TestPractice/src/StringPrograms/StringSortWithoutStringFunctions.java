@@ -10,6 +10,7 @@ public class StringSortWithoutStringFunctions {
 
 		for (int i = 0; i < ch.length; i++) {
 			for (int j = 0; j < ch.length; j++) {
+				
 				if (ch[j] > ch[i]) {
 					temp = ch[i];
 					ch[i] = ch[j];

@@ -26,11 +26,10 @@ public class BubbleSort {
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 1; j < arr.length; j++) {
 				// { 3, 60, 35, 2, 45, 320, 5 }
-				if (arr[j - 1] > arr[j]) {
+				if (arr[j-1] > arr[j]) {
 					temp = arr[j - 1]; // 60
 					arr[j - 1] = arr[j]; // 35
 					arr[j] = temp; // 60
-
 				}
 			}
 		}

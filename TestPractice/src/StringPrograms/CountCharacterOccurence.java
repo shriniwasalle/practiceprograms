@@ -9,5 +9,10 @@ public class CountCharacterOccurence {
 		
 		int len = str.length() - str.replace("a", "").length();
 		System.out.println("Count of character 'a': " +len);
+		
+		String str1 = "shriniwas";
+		int count =  str1.length() - str1.replace("i", "").length();
+		System.out.println("Count of char 'i': "+count);
+		
 	}
 }

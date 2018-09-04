@@ -11,9 +11,10 @@ public class FactorialUsingRecursion {
 		if (number == 0) {
 			return 1;
 		} else {
-			int num = number * factorial(number - 1);
-			return num;
+			return number * factorial(number - 1);
 		}	
 	}
 
 }
+
+// 

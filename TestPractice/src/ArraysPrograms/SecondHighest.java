@@ -8,8 +8,9 @@ public class SecondHighest {
 		int arr[] = { 10, 5, 12, 15 };
 		Arrays.sort(arr);
 		for (int i = 0; i < arr.length; i++) {
-			System.out.println(arr.length);
-			// System.out.println(arr[arr.length-2]);
+			//System.out.println(arr.length);
+			 System.out.println(arr[arr.length-2]);
+			 break;
 		}
 	}	
 }

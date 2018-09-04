@@ -20,6 +20,7 @@ public class AmazonTest {
 		driver.get("https://www.amazon.in");
 		driver.manage().window().maximize();
 		WebElement element = driver.findElement(By.xpath(".//*[@id='nav-link-shopall']/span[2]"));
+		
 		Actions action = new Actions(driver);
 
 		action.moveToElement(element).build().perform();

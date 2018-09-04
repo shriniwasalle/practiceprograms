@@ -21,5 +21,4 @@ public class UniqueCharactersString {
 		}
 		System.out.println(sb.toString().replaceAll("\\s", ""));
 	}
-
 }

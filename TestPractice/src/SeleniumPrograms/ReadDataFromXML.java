@@ -36,7 +36,5 @@ public class ReadDataFromXML {
 		WebDriver driver = new ChromeDriver();
 		driver.get(urlpath);
 		driver.manage().window().maximize();
-
 	}
-
 }

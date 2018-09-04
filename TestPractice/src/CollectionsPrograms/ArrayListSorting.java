@@ -15,6 +15,7 @@ public class ArrayListSorting {
 		a.add(1);
 		a.add(9);
 		a.add(7);
+		
 		System.out.println("Elements before sorting: ");
 		System.out.println(a);
 		int temp;

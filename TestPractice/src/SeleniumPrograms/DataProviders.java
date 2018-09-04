@@ -34,9 +34,9 @@ public class DataProviders {
 		for (int i = 0; i <= rowCount; i++) {
 			for (int j = 0; j < colCount; j++) {
 				data[i][j] = sheet.getRow(i).getCell(j).getStringCellValue();
+				
 			}
 		}
-		
 		return data;	
 	}
 	

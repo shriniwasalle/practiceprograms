@@ -28,5 +28,4 @@ public class MouseRightClick {
 */		/*action.sendKeys(Keys.ARROW_DOWN).build().perform();
 		action.sendKeys(Keys.ENTER).build().perform();*/
 	}
-
 }

@@ -11,8 +11,6 @@ abstract class AB {
 public class TestAbstractClass extends AB {
 	int j = 20;
 
-	
-
 	public void test() {
 		System.out.println("In default");
 		System.out.println(this.j);
